@@ -42,7 +42,8 @@ int main(void) {
 float mc_pi(int count)
 {
 	float picount=0;
-	for(int i=0;i<count;i++)
+        int i;
+	for(i=0;i<count;i++)
 	{
 		
 		float x = frandom();
@@ -55,6 +56,5 @@ float mc_pi(int count)
 	float area = ((4*picount)/count);
 	return area;
 }
-
 
 
